@@ -1,0 +1,4 @@
+hdu_estimate_kb=4461572
+mdu_estimate_kb=6161408
+available_kb=45783912
+required_kb=19583903

@@ -1,0 +1,4 @@
+status=PASS
+method=rsync_checksum_dry_run
+scope=/agibot project snapshot with metadata/EXCLUSIONS.tsv
+verified_at=20260816_223004

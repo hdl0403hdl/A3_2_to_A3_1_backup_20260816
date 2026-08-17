@@ -1,0 +1,21 @@
+schema=hope726.a3_2_to_a3_1_final_verify.v1
+raw_snapshot_status=PASS
+remote_to_mac_checksum_dry_run=PASS
+hdu2_manifest_status=PASS
+mdu2_manifest_status=PASS
+a3_1_payload_build_status=PASS
+v18_syntax_and_tests=PASS
+mc1_handoff_tests=PASS count=10
+mc2_handoff_tests=PASS count=8
+mc_dependencies=PASS
+a3_1_site_extrinsic_overlay=PASS
+a3_2_active_runtime_coupling_scan=PASS matches=0
+a3_2_only_stage2_chain_isolated=PASS
+portable_archive_zstd_integrity=PASS
+portable_archive_sha256=see_PACKAGE_SHA256.txt
+payload_contains_recordings=false
+payload_contains_python_cache=false
+a3_1_remote_preflight=WAITING reason=HDU1_SSH_UNREACHABLE
+a3_1_installed=false
+planner_activated=false
+control_started=false

@@ -1,0 +1,74 @@
+schema=hope726.a3_2_hdu_inventory.v1
+hdu
+2026-08-16T22:02:33+08:00
+Linux hdu 6.1.118 #1 SMP PREEMPT_RT Tue Jul 21 22:45:27 CST 2026 aarch64 GNU/Linux
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/mmcblk0p15   29G   19G  9.0G  67% /agibot
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+can0             DOWN           
+eth_hdu          UP             10.42.10.10/24 
+wifi_hdu         UP             192.168.47.31/23 10.168.61.1/24 fe80::9a:c977:1155:a416/64 
+p2p_hdu          DOWN           
+rmnet_mhi0       UP             fe80::3a68:4414:e3e5:4dbe/64 
+rmnet_mhi0.1     UP             10.31.170.236/29 10.168.60.1/24 fe80::50:f4ff:fe00:1/64 
+enx6c1ff7bf73aa  UP             192.168.100.253/24 
+d	700	agi:agi	16384	2025-06-26T22:58:41.0000000000	/agibot/lost+found	
+d	755	agi:agi	4096	2026-06-12T15:51:42.7200001950	/agibot/venv	
+d	755	agi:agi	4096	2026-06-19T12:50:18.4280050210	/agibot/data	
+d	755	agi:agi	4096	2026-07-05T14:56:55.2660003910	/agibot/ta	
+d	755	agi:agi	4096	2026-07-05T15:19:25.2780002690	/agibot/hy_ta	
+d	755	agi:agi	4096	2026-07-07T16:25:20.0360035220	/agibot/ta_0707_ta_0706	
+d	755	agi:agi	4096	2026-08-12T19:22:03.4560020530	/agibot/.a3_2_staging_20260812_192159	
+d	755	agi:agi	4096	2026-08-13T13:30:54.8360011190	/agibot/a3_2_migration_backups	
+d	755	agi:agi	4096	2026-08-15T17:48:44.0350066500	/agibot/hitter_a3_stage2_v3_hdu	
+d	755	agi:agi	4096	2026-08-16T14:56:19.1880066870	/agibot/backups	
+d	755	agi:staff	4096	2026-08-16T12:57:44.8490032950	/agibot/hope_726_ws	
+d	755	agi:staff	4096	2026-08-16T14:56:19.3520066870	/agibot/b17996_mdu	
+d	755	root:root	4096	2026-06-04T17:17:38.3460000120	/agibot/sys	
+d	755	root:root	4096	2026-06-16T14:45:11.4620009590	/agibot/.ota	
+f	640	agi:agi	38801622	2026-06-17T17:17:27.8400002340	/agibot/auth.log	
+f	644	agi:agi	10106880	2026-06-12T19:49:58.1480016880	/agibot/185数据tar.gz	
+f	644	agi:agi	15805	2026-06-12T16:48:54.3520018310	/agibot/ble_scan.py	
+f	644	agi:agi	442654720	2026-06-12T18:39:32.4610023280	/agibot/vectorflux_strip_stripped.tar	
+f	644	agi:agi	542923606	2026-06-15T11:44:04.4280012960	/agibot/185_.tar.gz	
+f	666	root:root	301516800	2026-07-04T18:31:09.0000000000	/agibot/hal_ethercat_tar.tar	
+f	666	root:root	301516800	2026-07-05T14:39:06.1900007900	/agibot/agi@10.42.10.12	
+f	666	root:root	3194	2026-05-04T10:49:44.0000000000	/agibot/hw_validation_remove_monitor.sh	
+f	755	agi:agi	23128	2026-06-15T19:34:09.2570147450	/agibot/app2.yaml	
+f	755	agi:agi	40049	2026-06-11T20:33:29.6870008980	/agibot/model.urdf	
+l	777	agi:agi	16	2026-06-04T17:30:30.9260000450	/agibot/log	/agibot/data/log
+l	777	agi:agi	17	2026-06-04T17:30:30.9140000450	/agibot/info	/agibot/data/info
+l	777	agi:agi	25	2026-06-04T17:30:30.9170000450	/agibot/software	/agibot/data/ota/firmware
+--- planner registry ---
+# menu_number  version_id
+1 v1_hdu_baseline
+2 v2_stability_candidate
+3 v3_mac_validated
+4 v4_latest_729
+5 v5_ellipsoid_a4
+6 v6_v4_net_bounce_guard
+7 v6_strike_time_60ms
+8 v8_strike_time_80ms
+10 v10_low_quality_revision
+11 v11_return118
+12 v12_return118_v10_revision
+14 v14_exact_one_bounce_return118
+15 v15_hitter110_base_target
+16 v16_hitter110_training_aligned
+18 v18_lateral_margin_return118
+--- active planner ---
+v18_lateral_margin_return118
+--- project processes ---
+414608 python3 /agibot/hope_726_ws/install/hope_bringup/lib/hope_bringup/optitrack_table_side_canonicalizer --ros-args -r __node:=optitrack_table_side_canonicalizer --params-file /tmp/launch_params_k8glq97n
+414612 python3 /agibot/hope_726_ws/install/hope_bringup/lib/hope_bringup/optitrack_motive_diagnostics --ros-args -r __node:=optitrack_motive_diagnostics --params-file /tmp/launch_params_j0iley3x
+782010 bash /agibot/b17996_mdu/run_hdu_stack.sh
+782216 /usr/bin/python3 /opt/ros/jazzy/bin/ros2 launch hope_bringup optitrack_hope_bridge.launch.py hostname:=192.168.100.111 interface_ip:=192.168.100.253 robot_object:=FDU_a3_2 ball_object:=Ball ball_source:=unlabeled ball_min_size_m:=0.025 robot_pose_topic:=/FDU_a3_2/pose racket_object:=FDU_pai_2 racket_pose_topic:=/FDU_pai_2/pose start_diagnostics:=true diagnostics_hz:=2.0 table_side:=opposite table_length_m:=2.74 table_width_m:=1.525 start_world:=false
+782217 python3 -m hope_planner.node --ros-args -r __node:=hope_planner --params-file /agibot/b17996_mdu/planner_versions/v18_lateral_margin_return118/config/hope_planner.yaml
+782218 python3 /agibot/b17996_mdu/scripts/hdu_planner_udp_bridge.py --robot-id a3_2 --robot-label 第二台A3 --base-object FDU_a3_2 --racket-object FDU_pai_2 --ball-object Ball --table-side opposite --table-length-m 2.74 --table-width-m 1.525 --mdu-host 10.42.10.12 --base-topic /FDU_a3_2/pose --corrected-base-topic /pelvis_link/pose --ball-topic /ball/point --marker-topic /optitrack/markerMetadata --ball-min-size-m 0.025 --ball-max-size-m 0.050 --racket-topic /FDU_pai_2/pose --command-topic /racket/command --protocol-version 3 --max-base-age 1.00 --tracking-warning-age 0.10 --max-command-age 0.35 --monitor-host 192.168.47.249 --monitor-port 17650 --joint-listen-host 0.0.0.0 --joint-listen-port 17242 --mdu-status-listen-host 0.0.0.0 --mdu-status-listen-port 17241 --bias-body-x 0.020771989 --bias-body-y 0.001398421 --bias-body-z 0.151112599 --fdu-to-pelvis-qx -0.003785624 --fdu-to-pelvis-qy 0.063379443 --fdu-to-pelvis-qz 0.031555114 --fdu-to-pelvis-qw 0.997483328
+782276 /agibot/hope_726_ws/install/motion_capture_tracking/lib/motion_capture_tracking/motion_capture_tracking_node --ros-args -r __node:=motion_capture_tracking_node -r __ns:=/optitrack --params-file /agibot/hope_726_ws/src/hope_bringup/config/optitrack_mct.yaml --params-file /tmp/launch_params_z2l051jb -r poses:=raw/poses -r pointCloud:=raw/pointCloud -r unlabeledMarkers:=raw/unlabeledMarkers -r markerMetadata:=raw/markerMetadata -r /tf:=/optitrack/raw/tf -r /tf_static:=/optitrack/raw/tf_static
+782280 python3 /agibot/hope_726_ws/install/hope_bringup/lib/hope_bringup/optitrack_table_side_canonicalizer --ros-args -r __node:=optitrack_table_side_canonicalizer --params-file /tmp/launch_params_sbvql5rh
+782283 python3 /agibot/hope_726_ws/install/hope_bringup/lib/hope_bringup/optitrack_mct_relay --ros-args -r __node:=optitrack_mct_relay --params-file /agibot/hope_726_ws/src/hope_bringup/config/optitrack_relay.yaml --params-file /tmp/launch_params_1j14xmfu
+782285 python3 /agibot/hope_726_ws/install/hope_bringup/lib/hope_bringup/optitrack_motive_diagnostics --ros-args -r __node:=optitrack_motive_diagnostics --params-file /tmp/launch_params_0oxp_f1n
+782287 python3 /agibot/hope_726_ws/install/hope_bringup/lib/hope_bringup/optitrack_unlabeled_ball --ros-args -r __node:=optitrack_unlabeled_ball --params-file /tmp/launch_params_3aoe6z0o
+826313 /usr/bin/python3 /opt/ros/jazzy/bin/ros2 bag record -s mcap --disable-keyboard-controls --start-paused --node-name hope_726_planner_recorder -o /agibot/b17996_mdu/records_hdu/20260816_214714_136605497/planner --topics /optitrack/raw/poses /optitrack/raw/markerMetadata /optitrack/raw/unlabeledMarkers /optitrack/raw/pointCloud /optitrack/poses /optitrack/markerMetadata /optitrack/unlabeledMarkers /FDU_a3_2/pose /FDU_pai_2/pose /ball/point /poses /racket/command
+845492 bash -c set -eu echo "schema=hope726.a3_2_hdu_inventory.v1" hostname; date -Is; uname -a; df -h /agibot ip -br address || true find /agibot -mindepth 1 -maxdepth 1 -printf "%y\t%m\t%u:%g\t%s\t%TY-%Tm-%TdT%TH:%TM:%TS\t%p\t%l\n" | sort echo "--- planner registry ---" cat /agibot/b17996_mdu/config/planner_versions.tsv 2>/dev/null || true echo "--- active planner ---" cat /agibot/b17996_mdu/config/active_planner_version 2>/dev/null || true echo "--- project processes ---" pgrep -af "run_hdu_stack|hope_planner|motion_capture_tracking|optitrack" || true 

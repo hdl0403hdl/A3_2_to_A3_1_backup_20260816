@@ -1,0 +1,97 @@
+schema=hope726.a3_2_mdu_inventory.v1
+mdu
+2026-08-16T22:02:34+08:00
+Linux mdu 6.1.118 #1 SMP PREEMPT_RT Tue Jul 21 22:40:10 CST 2026 aarch64 GNU/Linux
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/mmcblk0p15  115G   84G   25G  77% /agibot
+d	700	agi:agi	16384	2025-06-26T22:59:07.0000000000	/agibot/lost+found	
+d	755	agi:agi	24576	2026-07-05T14:39:56.9297622490	/agibot/bin	
+d	755	agi:agi	4096	2000-01-01T08:00:00.0000000000	/agibot/scripts	
+d	755	agi:agi	4096	2000-01-01T08:00:00.0000000000	/agibot/tools	
+d	755	agi:agi	4096	2026-06-21T18:51:52.2240338540	/agibot/uwb_fusion	
+d	755	agi:agi	4096	2026-06-26T15:43:03.3651058190	/agibot/pnc	
+d	755	agi:agi	4096	2026-07-05T14:39:56.3647625510	/agibot/config	
+d	755	agi:agi	4096	2026-07-25T11:05:00.3775800860	/agibot/data	
+d	755	agi:agi	4096	2026-08-12T19:22:05.5669011460	/agibot/.a3_2_staging_20260812_192159	
+d	755	agi:agi	4096	2026-08-12T23:51:27.7170385110	/agibot/cfg	
+d	755	agi:agi	4096	2026-08-13T13:32:11.0360862120	/agibot/a3_2_migration_backups	
+d	755	agi:agi	4096	2026-08-14T18:09:39.9902039530	/agibot/hope_exit_patch_backup_20260814_180939	
+d	755	agi:agi	4096	2026-08-14T19:31:27.6843911390	/agibot/faqiuS_2_xl6_next	
+d	755	agi:agi	4096	2026-08-15T01:25:26.1214385960	/agibot/hope_724	
+d	755	agi:agi	4096	2026-08-15T05:51:45.9668211390	/agibot/hitter_a3_model46000_110_v16	
+d	755	agi:agi	4096	2026-08-15T14:57:18.7044848220	/agibot/a3control_moveAndfaqiu_3	
+d	755	agi:agi	4096	2026-08-15T14:58:44.6073073560	/agibot/xl110_2_model17000	
+d	755	agi:agi	4096	2026-08-16T00:41:43.5205982440	/agibot/backups	
+d	755	agi:agi	4096	2026-08-16T00:58:24.4250584610	/agibot/a3control_moveAndfaqiu_2	
+d	755	agi:agi	4096	2026-08-16T04:37:22.2312702860	/agibot/__pycache__	
+d	755	agi:agi	4096	2026-08-16T21:30:08.7831760630	/agibot/mc1_xl1	
+d	755	agi:staff	4096	2026-08-11T18:37:25.0000000000	/agibot/激励录制播放.a3_2_old_20260812_203909	
+d	755	agi:staff	4096	2026-08-12T11:12:10.0000000000	/agibot/b17996_mdu_726_return118_model23296	
+d	755	agi:staff	4096	2026-08-12T20:19:33.0713409040	/agibot/a3control_moveAndfaqiu.a3_2_old_20260812_203132	
+d	755	agi:staff	4096	2026-08-12T20:19:33.0923408460	/agibot/bounce_pour_hope_real_v3_quick.a3_2_old_20260812_203132	
+d	755	agi:staff	4096	2026-08-12T20:19:33.1483406850	/agibot/hope_pdstand_serve_player.a3_2_old_20260812_203132	
+d	755	agi:staff	4096	2026-08-12T20:31:56.9281838610	/agibot/a3control_moveAndfaqiu.a3_2_old_20260812_203817	
+d	755	agi:staff	4096	2026-08-12T20:31:57.0011836470	/agibot/faqiuS_2_xl6.a3_2_old_20260812_203817	
+d	755	agi:staff	4096	2026-08-12T20:31:57.0191835950	/agibot/bounce_pour_hope_real_v3_quick.a3_2_old_20260812_203817	
+d	755	agi:staff	4096	2026-08-12T20:31:57.0761834280	/agibot/hope_pdstand_serve_player.a3_2_old_20260812_203817	
+d	755	agi:staff	4096	2026-08-12T20:39:01.3399392450	/agibot/a3control_moveAndfaqiu.a3_2_old_20260812_203909	
+d	755	agi:staff	4096	2026-08-12T20:39:01.4099390480	/agibot/faqiuS_2_xl6.a3_2_old_20260812_203909	
+d	755	agi:staff	4096	2026-08-12T20:39:01.4489389390	/agibot/bounce_pour_hope_real_v3_quick.a3_2_old_20260812_203909	
+d	755	agi:staff	4096	2026-08-12T20:39:01.5229387300	/agibot/hope_pdstand_serve_player.a3_2_old_20260812_203909	
+d	755	agi:staff	4096	2026-08-12T20:39:52.2367938460	/agibot/bounce_pour_hope_real_v3_quick	
+d	755	agi:staff	4096	2026-08-13T05:13:31.0252901750	/agibot/激励录制播放	
+d	755	agi:staff	4096	2026-08-13T13:32:11.0490861970	/agibot/a3control_moveAndfaqiu	
+d	755	agi:staff	4096	2026-08-13T13:32:11.0580861870	/agibot/faqiuS_2_xl6	
+d	755	agi:staff	4096	2026-08-14T18:09:39.9862039650	/agibot/b17996_mdu_726_model26300_dynamic_station	
+d	755	agi:staff	4096	2026-08-14T22:10:34.0000000000	/agibot/hitter_a3_model46000_110_v15	
+d	755	agi:staff	4096	2026-08-14T22:12:31.0000000000	/agibot/serve_balance_model905	
+d	755	agi:staff	4096	2026-08-14T22:12:39.1062075300	/agibot/xuanhong_ultimate_model46000_110	
+d	755	agi:staff	4096	2026-08-15T13:26:13.6166973520	/agibot/zymotion_serve_balance_model905	
+d	755	agi:staff	4096	2026-08-15T14:01:36.7365942050	/agibot/hope_pdstand_serve_player	
+d	755	agi:staff	4096	2026-08-15T14:24:26.2001121840	/agibot/xl110_model50999	
+d	755	agi:staff	4096	2026-08-15T16:47:57.6198108810	/agibot/b17996_mdu_726_return118_model23198	
+d	755	agi:staff	4096	2026-08-15T18:26:35.8396402820	/agibot/hitter_a3_stage2_v3_model52500_110	
+d	755	agi:staff	4096	2026-08-15T20:39:34.9924892940	/agibot/b17996_mdu_726_model25991_dynamic_station	
+d	755	agi:staff	4096	2026-08-15T23:50:06.3928672480	/agibot/b17996_mdu_726	
+d	755	agi:staff	4096	2026-08-16T04:37:00.8483279510	/agibot/b17996_mdu_726_return118_model25400	
+d	755	agi:staff	4096	2026-08-16T05:13:32.6784026950	/agibot/zymotion3_serve_balance_model905	
+d	755	agi:staff	4096	2026-08-16T11:24:20.1559813640	/agibot/mc2_xl1.backup_20260816_120205	
+d	755	agi:staff	4096	2026-08-16T12:06:43.9767629230	/agibot/mc2_xl1.backup_20260816_121407	
+d	755	agi:staff	4096	2026-08-16T13:57:00.5002055330	/agibot/xl110_3	
+d	755	agi:staff	4096	2026-08-16T14:12:23.2433427980	/agibot/xl110_4	
+d	755	agi:staff	4096	2026-08-16T16:35:33.6745354530	/agibot/b17996_mdu_726_return118_model23650	
+d	755	agi:staff	4096	2026-08-16T16:48:08.9279431360	/agibot/b17996_mdu_726_return118_model25038	
+d	755	agi:staff	4096	2026-08-16T17:15:34.5492062890	/agibot/zymotion4_serve_balance_model909	
+d	755	agi:staff	4096	2026-08-16T19:50:54.5944691620	/agibot/mc2_xl1	
+d	755	root:root	4096	2026-06-04T17:17:37.4794722580	/agibot/sys	
+d	755	root:root	4096	2026-06-16T14:47:57.6605330290	/agibot/.ota	
+f	644	agi:agi	0	2026-08-15T04:25:25.6822362190	/agibot/PD_STAND	
+f	644	agi:agi	0	2026-08-15T19:22:36.1055055640	/agibot/raw_action[31]	
+f	644	agi:agi	0	2026-08-15T19:22:36.1105055690	/agibot/smooth	
+f	644	agi:agi	1821	2026-08-14T22:56:52.1594327520	/agibot/MC_2_README.md	
+f	644	agi:agi	301516800	2026-07-05T14:39:31.2057746750	/agibot/hal_ethercat_tar.tar	
+f	644	agi:agi	85	2026-08-12T19:29:05.4447857210	/agibot/a3_robot_identity.json	
+f	755	agi:agi	160	2026-08-13T04:07:45.4633759740	/agibot/faqiuS_2_xl6.sh	
+f	755	agi:agi	163	2026-08-15T14:56:15.0000000000	/agibot/._xl110_2_model17000	
+f	755	agi:agi	3132	2026-08-13T04:07:46.3433730170	/agibot/set_return118_command_mode.sh	
+f	755	agi:agi	328	2026-08-14T19:31:27.7013910910	/agibot/MC_2_xl6.sh	
+f	755	agi:agi	346	2026-08-14T22:56:52.1544327570	/agibot/MC_2_xl4.sh	
+f	755	agi:agi	7929	2026-08-14T18:09:30.9682321430	/agibot/hope_hold_exit_supervisor.py	
+f	755	agi:agi	856	2026-08-15T14:01:39.6395903010	/agibot/A3control_moveAndfaqiu_3.sh	
+f	755	agi:staff	1024	2026-08-15T23:54:47.0000000000	/agibot/A3control_moveAndfaqiu_2.sh	
+f	755	agi:staff	653	2026-08-12T20:16:13.0000000000	/agibot/A3control_moveAndfaqiu.sh	
+l	777	agi:agi	16	2026-06-04T17:30:43.1876873260	/agibot/log	/agibot/data/log
+l	777	agi:agi	17	2026-06-04T17:30:43.1656875410	/agibot/info	/agibot/data/info
+l	777	agi:agi	25	2026-06-04T17:30:43.1786874140	/agibot/software	/agibot/data/ota/firmware
+l	777	agi:agi	26	2026-08-16T12:14:10.3511255640	/agibot/MC2_XL1.sh	/agibot/mc2_xl1/MC2_XL1.sh
+l	777	agi:agi	26	2026-08-16T21:01:05.4110597810	/agibot/MC1_XL1.sh	/agibot/mc1_xl1/MC1_XL1.sh
+l	777	agi:agi	78	2026-08-16T16:03:20.1426386120	/agibot/player4_package_upper_200hz_record.sh	/agibot/zymotion4_serve_balance_model909/player4_package_upper_200hz_record.sh
+--- robot identity ---
+{"schema":"hope726.robot_identity.v1","robot_id":"a3_2","robot_label":"第二台A3"}
+--- MC entrypoints ---
+symbolic link 777 agi:agi 26 2026-08-16 21:01:05.411059781 +0800 /agibot/MC1_XL1.sh
+/agibot/mc1_xl1/MC1_XL1.sh
+symbolic link 777 agi:agi 26 2026-08-16 12:14:10.351125564 +0800 /agibot/MC2_XL1.sh
+/agibot/mc2_xl1/MC2_XL1.sh
+--- project processes ---
+1093125 bash -c set -eu echo "schema=hope726.a3_2_mdu_inventory.v1" hostname; date -Is; uname -a; df -h /agibot find /agibot -mindepth 1 -maxdepth 1 -printf "%y\t%m\t%u:%g\t%s\t%TY-%Tm-%TdT%TH:%TM:%TS\t%p\t%l\n" | sort echo "--- robot identity ---" cat /agibot/a3_robot_identity.json 2>/dev/null || true echo "--- MC entrypoints ---" for p in /agibot/MC1_XL1.sh /agibot/MC2_XL1.sh; do stat -c "%F %a %U:%G %s %y %n" "$p" 2>/dev/null || true; readlink "$p" 2>/dev/null || true; done echo "--- project processes ---" pgrep -af "hope_pingpong|A3control|a3_excitation|a3_pdstand|bounce_pour|zymotion" || true 

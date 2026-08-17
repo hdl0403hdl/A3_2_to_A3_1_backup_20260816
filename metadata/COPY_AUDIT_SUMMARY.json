@@ -1,0 +1,60 @@
+{
+  "schema": "hope726.a3_2_to_a3_1_backup.v1",
+  "created_date": "2026-08-16",
+  "source": {
+    "hdu2": "agi@192.168.47.31:/agibot",
+    "mdu2": "agi@10.42.10.12:/agibot via agi@192.168.47.31"
+  },
+  "raw_snapshot": {
+    "hdu2_kib": 4627224,
+    "mdu2_kib": 6200488,
+    "hdu2_entries": 7954,
+    "mdu2_entries": 28572,
+    "hdu2_hashed_files": 6582,
+    "mdu2_hashed_files": 23867,
+    "remote_to_local_checksum_verify": "PASS"
+  },
+  "a3_1_payload": {
+    "hdu1_kib": 105432,
+    "mdu1_kib": 3995564,
+    "hdu1_entries": 2843,
+    "mdu1_entries": 26542,
+    "hdu1_hashed_files": 2095,
+    "mdu1_hashed_files": 21998,
+    "local_static_verify": "PASS",
+    "a3_2_active_runtime_coupling_matches": 0
+  },
+  "portable_archive": {
+    "path": "A3_1_PORTABLE_UPDATE_20260816.tar.zst",
+    "compressed_size_approx_gib": 1.5,
+    "sha256": "see PACKAGE_SHA256.txt",
+    "zstd_integrity": "PASS"
+  },
+  "included_primary_updates": [
+    "Planner v18_lateral_margin_return118",
+    "/agibot/MC1_XL1.sh and /agibot/mc1_xl1",
+    "/agibot/MC2_XL1.sh and /agibot/mc2_xl1",
+    "bounce_pour_hope_real_v3_quick dependency",
+    "model23198 return118 XL1 dependency",
+    "current portable Planner and MDU deployment roots"
+  ],
+  "a3_2_only_not_installable": [
+    "hitter_a3_stage2_v3_hdu",
+    "hitter_a3_stage2_v3_model52500_110"
+  ],
+  "protected_a3_1_state": [
+    "robot identity",
+    "FDU_a3 to pelvis calibration",
+    "active Planner",
+    "network and machine identity",
+    "EtherCAT, encoder zero and firmware",
+    "recordings, logs and bags"
+  ],
+  "a3_1_deployment": {
+    "status": "WAITING_FOR_A3_1",
+    "reason": "HDU1_SSH_UNREACHABLE",
+    "checked_at": "20260816_224129",
+    "installed": false,
+    "control_started": false
+  }
+}

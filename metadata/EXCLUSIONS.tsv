@@ -1,0 +1,17 @@
+pattern\treason\tcontent_copied
+/agibot/data/\tVendor logs, 50GB bags and runtime data; fingerprint only\tno
+/agibot/.ota/\tVendor OTA mirror contains protected NetworkManager secrets and is not project runtime\tno
+/agibot/sys/\tLive vendor IPC sockets and generated runtime state\tno
+/agibot/lost+found/\tFilesystem administration directory\tno
+/agibot/.a3_2_staging_*/\tCompleted migration staging copy; canonical deployment is backed up\tno
+/agibot/a3_2_migration_backups/\tHistorical migration backups; canonical deployment is backed up\tno
+*.a3_2_old_*/ or *.backup_*/\tHistorical duplicate trees; canonical deployment is backed up\tno
+records/\tRobot recordings explicitly excluded by user\tno
+records_hdu/\tHDU recordings explicitly excluded by user\tno
+joint_records/\tJoint recordings explicitly excluded by user\tno
+logs/ or log/\tRuntime logs are not deployment state\tno
+bag/\tROS/system bags are recordings\tno
+__pycache__/, .cache/, *.pyc\tRegenerable cache\tno
+.git/\tRepository metadata is not robot runtime\tno
+core, core.*\tCrash dumps\tno
+*.sock\tLive Unix sockets cannot be archived as project files\tno

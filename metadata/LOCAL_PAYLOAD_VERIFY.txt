@@ -1,0 +1,11 @@
+status=PASS
+v18_syntax_compile=PASS
+v18_tests=PASS
+mc_symlinks=PASS
+mc_shell_syntax=PASS
+mc_python_syntax=PASS
+mc_handoff_tests=PASS
+mc_dependencies=PASS
+a3_2_active_coupling_scan=0
+payload_mutated_by_test=false
+control_started=false

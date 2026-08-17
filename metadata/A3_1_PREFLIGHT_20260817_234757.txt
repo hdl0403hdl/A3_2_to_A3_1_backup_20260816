@@ -1,0 +1,39 @@
+schema=hope726.a3_1_preflight.v1
+checked_at=20260817_234757
+--- HDU1 ---
+hdu
+2026-08-17T23:48:00+08:00
+Linux hdu 6.1.118 #1 SMP PREEMPT_RT Wed May 20 21:38:59 CST 2026 aarch64 GNU/Linux
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/mmcblk0p15   29G   16G   12G  58% /agibot
+# FDU_a3 NatNet stream frame -> A3 URDF/MuJoCo pelvis_link.
+# Solved from marker/STL registration, FDU_pai/FK motion, and pelvis IMU checks.
+# Translation is expressed in the raw FDU_a3 stream frame. Quaternion is xyzw.
+export A3_BIAS_X=0.017662585
+export A3_BIAS_Y=-0.003902495
+export A3_BIAS_Z=0.152126430
+export A3_FDU_TO_PELVIS_QX=0.00382893327
+export A3_FDU_TO_PELVIS_QY=0.05297072783
+export A3_FDU_TO_PELVIS_QZ=-0.11294189240
+export A3_FDU_TO_PELVIS_QW=0.99218121843
+active=v12_return118_v10_revision
+# menu_number  version_id
+1 v1_hdu_baseline
+2 v2_stability_candidate
+3 v3_mac_validated
+4 v4_latest_729
+5 v5_ellipsoid_a4
+6 v6_v4_net_bounce_guard
+7 v6_strike_time_60ms
+8 v8_strike_time_80ms
+10 v10_low_quality_revision
+11 v11_return118
+12 v12_return118_v10_revision
+882730 bash -c set -eu     hostname; date -Is; uname -a; df -h /agibot     cat /agibot/b17996_mdu/config/a3_robot_identity.env 2>/dev/null || true     cat /agibot/b17996_mdu/config/fdu_pelvis_rotation.env     echo active=$(cat /agibot/b17996_mdu/config/active_planner_version 2>/dev/null || echo UNSET)     cat /agibot/b17996_mdu/config/planner_versions.tsv 2>/dev/null || true     pgrep -af "run_hdu_stack|hope_planner|motion_capture_tracking|optitrack" || true   
+--- MDU1 ---
+mdu
+2026-08-17T23:48:01+08:00
+Linux mdu 6.1.118 #1 SMP PREEMPT_RT Wed May 20 21:38:49 CST 2026 aarch64 GNU/Linux
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/mmcblk0p15  115G   90G   19G  84% /agibot
+58918 bash -c set -eu     hostname; date -Is; uname -a; df -h /agibot     cat /agibot/a3_robot_identity.json 2>/dev/null || true     for p in /agibot/MC1_XL1.sh /agibot/MC2_XL1.sh /agibot/mc1_xl1 /agibot/mc2_xl1; do       test ! -e "$p" || stat -c "%F %a %U:%G %s %y %n" "$p"     done     pgrep -af "hope_pingpong|A3control|a3_excitation|a3_pdstand|bounce_pour|zymotion" || true   

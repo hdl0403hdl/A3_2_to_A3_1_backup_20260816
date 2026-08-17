@@ -1,0 +1,9 @@
+HDU:/agibot/b17996_mdu/config/a3_robot_identity.env
+HDU:/agibot/b17996_mdu/config/fdu_pelvis_rotation.env
+HDU:/agibot/b17996_mdu/config/fdu_pelvis_rotation_a3_2.env
+HDU:/agibot/b17996_mdu/config/active_planner_version
+HDU:/agibot/b17996_mdu/config/planner_versions.tsv (merge only)
+HDU:NetworkManager profiles, interface names, machine-id and SSH host keys
+MDU:/agibot/a3_robot_identity.json
+MDU:EtherCAT, encoder zero, firmware, machine-id and SSH host keys
+MDU:records, records_hdu, joint_records, logs and bags

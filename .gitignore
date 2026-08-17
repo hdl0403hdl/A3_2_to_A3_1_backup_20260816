@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Large payloads are distributed as GitHub Release assets, not Git objects.
+A3_1_PORTABLE_UPDATE_20260816.tar.zst
+raw_snapshot/
+deployment_payload/
+target_before/
+a3_2_only_not_for_a3_1_install/
+
